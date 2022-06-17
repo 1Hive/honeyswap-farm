@@ -5,9 +5,9 @@ module.exports = () => {
   const endpoints = [
     process.env.RINKEBY_ENDPOINT,
     process.env.XDAI_ENDPOINT,
-    'https://rpc.xdaichain.com/',
+    'https://rpc.gnosischain.com/',
     'https://xdai.poanetwork.dev',
-    'wss://rpc.xdaichain.com/wss',
+    'wss://rpc.gnosischain.com/wss',
     'wss://xdai.poanetwork.dev/wss',
     process.env.MATIC_ENDPOINT
   ]

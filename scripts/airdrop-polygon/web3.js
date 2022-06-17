@@ -12,5 +12,4 @@ module.exports = () => {
   )
   web3.chain = 'polygon'
   return web3
-  // return new Web3(new Web3.providers.HttpProvider('https://rpc.xdaichain.com/'))
 }
